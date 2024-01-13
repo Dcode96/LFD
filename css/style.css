@@ -3,5 +3,55 @@
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: azure;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  position: relative;
+}
+
+/* TITLE/LOGO */
+.logo {
+  font-size: 7.4rem;
+  font-family: "genos";
+  color: #1098ad;
+}
+
+/* NAV */
+
+.main-nav-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 5.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 2rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #1098ad;
+  color: red;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #0b7285;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #1098ad;
 }
