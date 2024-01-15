@@ -33,14 +33,13 @@
   text-decoration: none;
   color: #333;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 2.4rem;
   transition: all 0.3s;
 }
 
 .main-nav-link:hover,
 .main-nav-link:active {
   color: #1098ad;
-  color: red;
 }
 
 .main-nav-link.nav-cta:link,
